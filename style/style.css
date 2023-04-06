@@ -153,6 +153,7 @@ section {
     border: none;
     font-weight: 600px;
     font-size: 24px;
+    margin-left: 25px;
 }
 
 .section1 {
@@ -514,97 +515,123 @@ h3 {
     transform: translateY(-40%);
     opacity: 1;
 }
+/* ფოოტერი */
 
-footer {
-    width: 100%;
-    height: 18rem;
-    display: flex;
-    flex-direction: row;
+.footer {
+    margin-top: 140px;
 }
 
 .links-container {
-    width: 70%;
-    height: 18rem;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+li {
+    list-style: none;
+}
+.about-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 30px;
+}
+.list_a {
     display: flex;
     flex-direction: column;
 }
-
-.media-container {
-    width: 30%;
-    height: 18rem;
-    text-align: center;
+.list-first {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.about-list a {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
 }
 
-.footerNav {
-    width: 100%;
+.sub-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 175px;
+    width: 260px;
+
+}
+.nav_list {
+   
     display: flex;
     flex-direction: row;
-    height: 4rem;
-    align-items: center;
-    padding: 0 120px;
     justify-content: center;
+    align-items: center;
+}
+.sub-txt {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+}
+.sub-text {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
 }
 
-.contsContainer h2 {
-    font-family: var(--font-family);
+.logo-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 110px;
 }
-
-.footerMedia{
-    width: 100%;
-    height: 5rem;
-    font-family: var(--font-family);
+.log-title {
+    width: 180px;
+}
+.mainlogo {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 53px;
     display: flex;
     align-items: center;
-    padding: 0 30px;
-    justify-content: center;
+    color: #0A7777;
 }
-
-.conts {
-    width: 250px;
-    height: 18rem;
-    margin: 5px;
-    text-align: center;
+.logo-y img {
+    width: 110px;
+    height: 25px;
 }
-
-.contsContainer {
-    width: 100%;
-    height: 18rem;
+.logo-f-g {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-family: var(--font-family);
-}
+    gap: 45px;
 
-.conts h3 {
-    cursor: pointer;
-}
-
-.media-container i {
-    font-size: xx-large;
-    padding: 10px;
-}
-
-.tube {
-    color: red;
-}
-
-.face {
-    color: rgb(64, 64, 245);
-}
-
-.google {
-    color: yellow;
-}
-
-.tourBtn {
-    background-color: #0A7777;
-    color: white;
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    width: 150px;
-    height: 50px;
-    font-size: large;
-    font-family: var(--font-family);
 }
