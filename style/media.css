@@ -1,0 +1,7 @@
+@media screen { (max-width: 955px;)
+    body{
+        flex-direction: row;
+        flex-direction: column;
+    }
+    
+}

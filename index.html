@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="style/game.css">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Istok+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    
 
     <!-- font awesome CDN  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -15,11 +20,12 @@
 </head>
 
 <body>
-    <div class="main-container">
+    <div class="main-container"> 
         <header>
             <nav>
                 <div class="navbar-container">
-                    <a href="#">Travel</a>
+                    <a href="#">
+                        <span>Travel</span></a>
                     <a href="#">Home</a>
                     <a href="#">About</a>
                     <a href="#">Service</a>
@@ -36,13 +42,13 @@
             <div class="text-container">
                 <div class="text-content-container">
                     <div>
-                        <h1 class="main-content-h1">Live the life you've <br> always wanted to
+                        <h1 class="h1-fonts">Live the life you've <br> always wanted to
                             live.
                         </h1>
                     </div>
 
                     <div>
-                        <h3>LIFE IS SHORT AND THE WORLD IS HUGE, SO <br> GET STARTED NOW!</h3>
+                        <p class="sec_1_sec_2_sec_3">LIFE IS SHORT AND THE WORLD IS HUGE, SO <br> GET STARTED NOW!</p>
                     </div>
 
                     <div class="date-container">
@@ -71,21 +77,23 @@
             </div>
 
             <div class="section2-textContainer">
-                <h2>About Us</h2>
+                <h2><span class="span-h2">About Us</span></h2>
                 <div>
-                    <h1>Our itinerary aims to <br> fulfil your every wish.</h1>
+                    <h1 class="h1-fonts">Our itinerary aims to <br> fulfil your every wish.</h1>
                 </div>
                 <div>
-                    <p>to embrace that anything worth having involves self- <br> belief, vision, hard work, commitment,
+                    <p class="sec_1_sec_2_sec_3">to embrace that anything worth having involves self- <br> belief, vision, hard work, commitment,
                         and
                         <br> dedication
                     </p>
                 </div>
                 <div class="numbers-div">
-                    <a href="#">20</a>
-                    <a href="#">5K</a>
-                    <a href="#">10K</a>
-                    <a href="#">4.3</a>
+                    <span>
+                        <a href="#">20</a>
+                        <a href="#">5K</a>
+                        <a href="#">10K</a>
+                        <a href="#">4.3</a>
+                    </span>
                 </div>
 
                 <div class="text-div">
@@ -101,49 +109,55 @@
 
         <section class="section3">
             <div class="content-section3">
-                <h2>Top Packages</h2>
-                <h1>Amazing Places in <br> the world.</h1>
-
+                <h2><span class="span-h2">Tour Packages</span></h2>
+                <h1 class="h1-fonts">Amazing Places in <br> the world.</h1>
                 <div class="carousel" id="carousel">
-
                     <div class="card" data-tilt>
                         <div class="card-img">
                             <img src="assets/13.png" width="500px" alt="">
                         </div>
-                        <h2>SEA SIDE</h2>
+                        <h2 class="sec3_sec5">SEA SIDE</h2>
                         <div class="priceContainer">
-                            <h2>$500</h2>
-                            <h3 style="font-size: medium;">10 days tour</h3>
+                            <h2>
+                                <span class="span-h2">$500</span>
+                            </h2>
+                            <h5 class="h5-fonts">10 days tour</h5>
                         </div>
                     </div>
                     <div class=" card" data-tilt>
                     <div class="card-img">
                         <img src="assets/2.png" width="280px">
                     </div>
-                        <h2>HILLS</h2>
+                        <h2 class="sec3_sec5">HILLS</h2>
                     <div class="priceContainer">
-                        <h2>$600</h2>
-                        <h3 style="font-size: medium;">12 days tour</h3>
+                        <h2>
+                            <span class="span-h2">$600</span>
+                        </h2>
+                        <h5 class="h5-fonts">12 days tour</h5>
                         </div>
                     </div>
                     <div class=" card" data-tilt>
                         <div class="card-img">
                         <img src="assets/3.png" width="280px" alt="">
                         </div>
-                        <h2>BEACH</h2>
+                        <h2 class="sec3_sec5">BEACH</h2>
                         <div class="priceContainer">
-                        <h2">$540</h2>
-                        <h3 style="font-size: medium;">7 days tour</h3>
+                        <h2">
+                            <span class="span-h2">$540</span>
+                        </h2>
+                        <h5 class="h5-fonts">7 days tour</h5>
                         </div>
                     </div>
                     <div class=" card" data-tilt>
                         <div class="card-img">
                             <img src="assets/16.png" width="500px" alt="">
                         </div>
-                        <h2>PALACE</h2>
+                        <h2 class="sec3_sec5">PALACE</h2>
                         <div class="priceContainer">
-                        <h2">$450</h2>
-                        <h3 style="font-size: medium;">14 days tour</h3>
+                        <h2">
+                            <span class="span-h2">$450</span>
+                        </h2>
+                        <h5 class="h5-fonts">14 days tour</h5>
                         </div>
                     </div>
         <!-- გასასწორებელია -->
@@ -151,45 +165,52 @@
                         <div class="card-img">
                             <img src="assets/13.png" width="500px" alt="">
                         </div>
-                            <h2>SEA SIDE</h2>
+                            <h2 class="sec3_sec5">SEA SIDE</h2>
                         <div class="priceContainer">
-                            <h2>$500</h2>
-                            <h3 style="font-size: medium;">10 days tour</h3>
+                            <h2>
+                                <span class="span-h2">$500</span>
+                             </h2>
+                            <h5 class="h5-fonts">10 days tour</h5>
                         </div>
                     </div>
                     <div class=" card" data-tilt>
                          <div class="card-img">
                             <img src="assets/2.png" width="280px">
                          </div>
-                            <h2>HILLS</h2>
+                            <h2 class="sec3_sec5">HILLS</h2>
                          <div class="priceContainer">
-                            <h2">$600</h2>
-                            <h3 style="font-size: medium;">12 days tour</h3>
+                            <h2>
+                               <span class="span-h2"> $600</span>
+                            </h2>
+                            <h5 class="h5-fonts">12 days tour</h5>
                         </div>
                     </div>
                     <div class=" card" data-tilt>
                         <div class="card-img">
                             <img src="assets/3.png" width="280px" alt="">
                         </div>
-                            <h2>BEACH</h2>
+                            <h2 class="sec3_sec5">BEACH</h2>
                         <div class="priceContainer">
-                            <h2">$540</h2>
-                            <h3 style="font-size: medium;">7 days tour</h3>
+                            <h2>
+                                <span class="span-h2">$540</span>
+                            </h2>
+                            <h5 class="h5-fonts">7 days tour</h5>
                         </div>
                     </div>
                     <div class=" card" data-tilt>
                             <div class="card-img">
                                 <img src="assets/16.png" width="500px" alt="">
                             </div>
-                                <h2>PALACE</h2>
+                                <h2 class="sec3_sec5">PALACE</h2>
                             <div class="priceContainer">
-                                <h2">$450
+                                <h2">
+                                <span class="span-h2">$450</span>
                             </h2>
-                           <h3 style="font-size: medium;">14 days tour</h3>
+                           <h5 class="h5-fonts">14 days tour</h5>
                         </div>
                     </div>
                 </div>
-                    <div class=" dots">
+                    <div class="dots">
                         <a id="dotOne"></a>
                         <a id="dotTwo"></a>
                         <a id="dotThree"></a>
@@ -198,15 +219,15 @@
         </section>
 
         <section class="section4">
-            <h2>Testimonials</h2>
+            <h2><span class="span-h2">Testimonials</span></h2>
 
-            <h1>Dare to live the life you’ve <br> always wanted.</h1>
+            <h1 class="h1-fonts">Dare to live the life you’ve <br> always wanted.</h1>
             <div class="cardsContainer">
                 <div class="testimonialCards card1">
                     <div></div>
                     <br> <br> <img src="assets/9.png" class="pic" alt="">
-                    <h1>wright</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <h1 class="sect4-h1">wright</h1>
+                    <p class="paragrap-fonts">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. </p>
                     <div class="starsContainer">
                         <i class="fa-sharp fa-solid fa-star"></i>
@@ -219,8 +240,8 @@
                 <div class="testimonialCards card2">
                     <div></div>
                     <br> <br> <img src="assets/10.png" class="pic" alt="">
-                    <h1>Dam</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <h1 class="sect4-h1">Dam</h1>
+                    <p class="paragrap-fonts">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. </p>
                     <div class="starsContainer">
                         <i class="fa-sharp fa-solid fa-star"></i>
@@ -233,8 +254,8 @@
                 <div class="testimonialCards card3">
                     <div></div>
                     <br> <br> <img src="assets/11.png" class="pic" alt="">
-                    <h1>Haitham</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <h1 class="sect4-h1">Haitham</h1>
+                    <p class="paragrap-fonts">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. </p>
                     <div class="starsContainer">
                         <i class="fa-sharp fa-solid fa-star"></i>
@@ -247,8 +268,8 @@
                 <div class="testimonialCards card4">
                     <div></div>
                     <br> <br> <img src="assets/12.png" class="pic" alt="">
-                    <h1>Ricon</h1>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <h1 class="sect4-h1">Ricon</h1>
+                    <p class="paragrap-fonts">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. </p>
                     <div class="starsContainer">
                         <i class="fa-sharp fa-solid fa-star"></i>
@@ -263,10 +284,10 @@
         </section>
 
         <section class="section5">
-            <h1>If we persist long enough, <br>
+            <h1 class="h1-fonts">If we persist long enough, <br>
                 we can achieve anything.</h1>
 
-            <h3>Make the best of what you have where you are.</h3>
+            <p class="sec_1_sec_2_sec_3">Make the best of what you have where you are.</p>
 
             <button class="tourBtn">See All Tours</button>
 
@@ -275,51 +296,59 @@
                     <div class="card-img">
                         <img src="assets/13.png" width="500px" alt="">
                     </div>
-                    <h2>SEA SIDE</h2>
+                    <h2  class="sec3_sec5">SEA SIDE</h2>
                     <div class="priceContainer">
-                        <h2>$500</h2>
-                        <h3 style="font-size: medium;">10 days tour</h3>
+                        <h2>
+                            <span class="span-h2_5">$500</span>
+                        </h2>
+                        <h5 class="h5-fonts">10 days tour</h5>
                         </div>
                     </div>
                     <div class=" card cardtra2">
                             <div class="card-img">
                                 <img src="assets/2.png" width="280px">
                             </div>
-                            <h2>HILLS</h2>
+                            <h2 class="sec3_sec5">HILLS</h2>
                             <div class="priceContainer">
-                                <h2 >$600</h2>
-                                <h3 style="font-size: medium;">12 days tour</h3>
+                          <h2>
+                                    <span class="span-h2_5">$600</span>
+                                </h2>
+                                <h5 class="h5-fonts">12 days tour</h5>
                         </div>
                     </div>
                     <div class=" card cardtra2">
                         <div class="card-img">
                             <img src="assets/3.png" width="280px" alt="">
                         </div>
-                        <h2>BEACH</h2>
+                        <h2 class="sec3_sec5">BEACH</h2>
                         <div class="priceContainer">
-                            <h2>$540</h2>
-                            <h3 style="font-size: medium;">7 days tour</h3>
+                            <h2>
+                                <span class="span-h2_5">$540</span>
+                            </h2>
+                            <h5 class="h5-fonts">7 days tour</h5>
                         </div>
                     </div>
                         <div class=" card cardtra1">
                         <div class="card-img">
                             <img src="assets/16.png" width="500px" alt="">
                     </div>
-                        <h2>PALACE</h2>
+                        <h2 class="sec3_sec5">PALACE</h2>
                         <div class="priceContainer">
-                            <h2>$450</h2>
-                            <h3 style="font-size: medium;">14 days tour</h3>
+                            <h2>
+                                <span class="span-h2_5">$450</span>
+                            </h2>
+                            <h5 class="h5-fonts">14 days tour</h5>
                         </div>
                     </div>
                 </div>
         </section>
 
         <footer>
-            <div class=" links-container">
+            <div class="links-container">
 
                 <div class="contsContainer">
                     <div class="conts">
-                        <h2>About</h2>
+                        <h2 class="footer_h2">About</h2>
                         <br> <br>
                         <h3>Plans</h3>
                         <br>
@@ -330,7 +359,7 @@
                         <h3>About Us</h3>
                     </div>
                     <div class="conts">
-                        <h2>Company</h2>
+                        <h2 class="footer_h2">Company</h2>
                         <br> <br>
                         <h3>Travel</h3>
                         <br>
@@ -341,7 +370,7 @@
                         <h3>Blog</h3>
                     </div>
                     <div class="conts">
-                        <h2>Support</h2>
+                        <h2 class="footer_h2">Support</h2>
                         <br> <br>
                         <h3>Support</h3>
                         <br>
@@ -352,7 +381,7 @@
                         <h3>Accounts</h3>
                     </div>
                     <div class="conts">
-                        <h2>Newsletter</h2>
+                        <h2 class="footer_h2">Newsletter</h2>
                         <br><br><br>
                         <p>Subscribe to newsletter to get more exiting offers.</p>
                     </div>
@@ -361,12 +390,19 @@
             <div class="media-container">
                 <header>
                 <div class="footerMedia">
-                <h1>Travel</h1>
+                <h2>
+                    <span class="span-h2-f">Travel</span>
+                </h2>
                 </div>
                 <br><br></header>
-                <i class="fa-brands fa-youtube tube"></i>
+                <div class="footer_logo">
+                    <img class="footer_logo_yt" src="./assets/logo_youtube.svg">
+                    <img class="footer_logo_img" src="/assets/logos_facebook.svg">
+                    <img class="footer_logo_img" src="/assets/flat-color-icons_google.svg">
+                </div>
+                <!-- <i class="fa-brands fa-youtube tube"></i>
                 <i class="fa-brands fa-facebook face"></i>
-                <i class="fa-brands fa-google google"></i>
+                <i class="fa-brands fa-google google"></i> -->
             </div>
             </footer>
             </div>
